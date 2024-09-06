@@ -1,0 +1,34 @@
+.container{
+    height: 634px;
+    width: 688px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.img1{
+    width: 688px;
+    height: 634px;
+    object-fit: cover;
+    object-position: top center;
+    /* object-position: top left; */
+    /* object-position: top right; */
+    /* object-fit: contain; */
+    
+}
+.img2{
+    filter: blur(2px);
+}
+.img3{
+    filter: brightness(330%) contrast(220%);
+}
+.img4{
+    filter: grayscale(80%);
+}
+.img5{
+    filter: drop-shadow(20px 20px 20px red)
+}
+.img6{
+    filter: invert(1)
+}
+.img7{
+    filter: opacity(0.5)
+}
