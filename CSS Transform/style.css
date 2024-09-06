@@ -1,0 +1,24 @@
+*{
+    background-color: grey;
+    color: antiquewhite;
+}
+.container{
+    border: 1px solid black;
+    height: 90vh;
+}
+.box{
+    height: 30vh;
+    width: 15vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    /* transform: rotate(0.25turn); */
+    /* transform: rotate(9deg); */
+    /* transform: scale(1.6); */
+    /* transform: translateX(100%); */
+    /* transform: translateY(100%); */
+    /* transform: skew(34deg); */
+    
+}
