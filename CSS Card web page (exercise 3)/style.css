@@ -1,0 +1,28 @@
+body{
+     background-color: 
+     grey;
+     padding: 40px 200px 0px 470px;
+ }
+ .card{
+     background-color: azure;
+     width: 395px;
+     height: 600px;
+     border-radius: 10px;
+ }
+ .image{
+     padding: 22px;
+ }
+ .image img{
+     border-radius: 10px;
+ }
+ .content{
+     padding: 15px;
+ }
+ .capsule{
+     padding: 0px 15px;
+ }
+ .capsule span{
+     border: 1px solid;
+     padding: 10px;
+     border-radius: 10px;
+ }
