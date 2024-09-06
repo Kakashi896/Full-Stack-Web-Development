@@ -1,0 +1,17 @@
+div p:first-child {
+    color: yellow;
+    background-color: black;
+}
+div p {
+    color: yellow;
+    background-color: black;
+}
+div p{
+    color:rgb(255, 0, 0);
+    background-color: rgb(216, 250, 21);
+    
+}
+p{
+    color: darkred;
+    background-color: cyan;
+}
