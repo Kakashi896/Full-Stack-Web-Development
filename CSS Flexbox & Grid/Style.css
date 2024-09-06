@@ -1,0 +1,109 @@
+*{
+   background-color: grey;
+}
+.container{
+border: 1px solid wheat;   
+}
+.item{
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    margin: 12px;
+    padding: 12px;
+    background-color: antiquewhite;
+}
+.container1{
+border: 1px solid wheat;   
+display: flex;
+height: 50vh;
+justify-content: center;
+align-items: center
+
+}
+.item1{
+    
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    margin: 32px;
+    padding: 22px;
+    background-color: antiquewhite;
+}
+.container2{
+    border: 1px solid wheat;   
+    display: grid;
+    grid-template-columns: 120px 100px;
+    grid-template-rows: 100px 100px 100px;
+    
+    }
+.item2{
+    
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    margin: 32px;
+    padding: 22px;
+    background-color: antiquewhite;
+}
+.item4{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    margin: 32px;
+    padding: 22px;
+    background-color: antiquewhite;
+}
+.itm{
+    
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    margin: 32px;
+    padding: 22px;
+    background-color: antiquewhite;
+}
+.container3{
+    border: 1px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav"
+                         "side article article2"
+                         "footer footer footer"    
+                         ;
+}
+.itm1{
+    height: 32px;
+    margin: 12px;
+    grid-area: nav;
+    border: 1px solid white;
+    background-color: antiquewhite;
+}
+.itm2{
+    height: 32px;
+    margin: 12px;
+    grid-area: side;
+    border: 1px solid white;
+    background-color: antiquewhite;
+}
+.itm3{
+    height: 32px;
+    margin: 12px;
+    grid-area: article;
+    border: 1px solid white;
+    background-color: antiquewhite;
+}
+.itm4{
+    height: 32px;
+    margin: 12px;
+    grid-area: article2;
+    border: 1px solid white;
+    background-color: antiquewhite;
+}
+.itm5{
+    height: 32px;
+    margin: 12px;
+    grid-area: footer;
+    border: 1px solid white;
+    background-color: antiquewhite;
+}
