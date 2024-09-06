@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+.vdo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.song{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+    padding-left: 38%;
+    
+}
+.text1{
+    color: azure;
+    padding-left: 39%;
+}
+.text2{
+    color: aliceblue;
+    padding-left: 45%;
+}
