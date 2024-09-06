@@ -1,0 +1,54 @@
+*{
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    
+}
+ul{
+    display: flex;
+}
+ul li{
+      margin: 15px;    
+     padding: 15px;    
+      background-color: azure;
+}
+li{
+    list-style: none;
+    font-size: large;
+    
+}
+
+.li{
+    color: red;
+}
+.li1{
+    color: rgb(224, 224, 37);
+}
+.li2{
+    color: blue;
+}
+.li3{
+    color: green;
+}
+.li:hover{
+    color: blueviolet;
+    font-size: 45px;
+}
+.li1:hover{
+    color: rgb(226, 113, 43);
+    font-size: 45px;
+
+}
+.li2:hover{
+    color: rgb(226, 205, 43);
+    font-size: 45px;
+}
+.li3:hover{
+    color: rgb(43, 226, 226);
+    font-size: 45px;
+}
+.img{
+    display: flex;
+    }
+    
