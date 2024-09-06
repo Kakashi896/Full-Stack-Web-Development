@@ -1,0 +1,66 @@
+* {
+    background-color: grey;
+
+}
+
+nav ul li {
+    list-style-type: "*";
+    list-style-position: inside;
+    color: yellow;
+}
+
+.box {
+    color: yellow;
+    width: 18vw;
+    height: 18vh;
+    border: solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.box1 {
+    color: yellow;
+    width: 10vw;
+    height: 5vh;
+    border: solid black;
+    overflow: scroll hidden;
+    white-space: nowrap;
+}
+
+.box3 {
+    background-color: aliceblue;
+}
+
+.box4 {
+    background-color: aquamarine;
+    /* position: relative;
+    top: -45px;
+    right: -25px;
+    */
+}
+
+.box5 {
+    background-color: beige;
+}
+
+.box6 {
+    background-color: blanchedalmond;
+    /* position: fixed;
+    bottom: 0px;
+    left: 18vw;
+    height: 111px; */
+}
+
+.bx {
+    border: 2px solid black;
+    height: 20vh;
+    width: 60vw;
+    padding: 3px;
+    margin: 15px;
+}
+
+.position {
+    border: 2px solid black;
+    margin: 38px;
+    padding: 34px;
+}
